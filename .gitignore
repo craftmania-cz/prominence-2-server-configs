@@ -25,3 +25,6 @@ ops.json
 config/spark/tmp/*
 server.jar
 fabric-*.jar
+config/sound_physics_remastered/reflectivity.properties
+config/sound_physics_remastered/occlusion.properties
+config/mcda/mcda_enable_armors.json5
