@@ -1,0 +1,154 @@
+{
+  "name": "Prominence II [RPG]",
+  "pack": "Prominence II [RPG]",
+  "packId": 0,
+  "version": "Server Pack for v2.5.0",
+  "isPatchedForLog4Shell": true,
+  "isDev": false,
+  "mods": [],
+  "ignoredUpdates": [],
+  "curseForgeProject": {
+    "id": 466901,
+    "name": "Prominence II [RPG]",
+    "authors": [
+      {
+        "id": 102066281,
+        "name": "LunaPixelStudios",
+        "url": "https://www.curseforge.com/members/102066281-lunapixelstudios?username=lunapixelstudios"
+      }
+    ],
+    "gameId": 432,
+    "summary": "Content rich Fabric modpack with focus on RPG content, balance, tons of custom content, quests, and a story campaign for Minecraft 1.20.1!",
+    "categories": [
+      {
+        "name": "Tech",
+        "slug": "tech",
+        "url": "https://www.curseforge.com/minecraft/modpacks/tech",
+        "dateModified": "2015-02-16T15:35:53.467Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4472,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/479/635596761534662757.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Adventure and RPG",
+        "slug": "adventure-and-rpg",
+        "url": "https://www.curseforge.com/minecraft/modpacks/adventure-and-rpg",
+        "dateModified": "2015-02-16T15:58:24.98Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4475,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/480/635596775049811800.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Magic",
+        "slug": "magic",
+        "url": "https://www.curseforge.com/minecraft/modpacks/magic",
+        "dateModified": "2015-02-16T15:34:17.873Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4473,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/474/635596760578719019.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Extra Large",
+        "slug": "extra-large",
+        "url": "https://www.curseforge.com/minecraft/modpacks/extra-large",
+        "dateModified": "2015-02-16T15:34:00.357Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4482,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/472/635596760403562826.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      },
+      {
+        "name": "Quests",
+        "slug": "quests",
+        "url": "https://www.curseforge.com/minecraft/modpacks/quests",
+        "dateModified": "2015-02-16T17:06:53.797Z",
+        "gameId": 432,
+        "isClass": false,
+        "id": 4478,
+        "iconUrl": "https://media.forgecdn.net/avatars/14/487/635596816137981263.png",
+        "parentCategoryId": 4471,
+        "classId": 4471
+      }
+    ],
+    "status": 4,
+    "primaryCategoryId": 4475,
+    "classId": 4471,
+    "slug": "prominence-2-rpg",
+    "isFeatured": false,
+    "dateModified": "2024-01-10T01:42:48.397Z",
+    "dateCreated": "2021-04-05T07:18:56.367Z",
+    "dateReleased": "2024-01-10T01:30:00.027Z",
+    "links": {
+      "websiteUrl": "https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg",
+      "wikiUrl": "https://rpg.prominence.wiki/",
+      "issuesUrl": "https://github.com/LunaPixelStudios/Prominence/issues"
+    },
+    "logo": {
+      "id": 883255,
+      "description": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/883/255/256/256/638316241239070589.png",
+      "title": "638316241239070589.png",
+      "url": "https://media.forgecdn.net/avatars/883/255/638316241239070589.png",
+      "modId": 466901
+    },
+    "allowModDistribution": true,
+    "screenshots": [],
+    "mainFileId": 5021174
+  },
+  "curseForgeFile": {
+    "id": 5021253,
+    "gameId": 432,
+    "isAvailable": true,
+    "displayName": "Server Pack for v2.5.0",
+    "fileName": "Prominence_II_RPG_Server_Pack_v2.5.0.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "fileDate": "2024-01-10T01:30:00.027Z",
+    "fileLength": 589978310,
+    "dependencies": [],
+    "alternateFileId": 0,
+    "modules": [],
+    "isServerPack": true,
+    "hashes": [
+      {
+        "value": "d1db74f42d32d133cc4970a958fe23682ee30c1c",
+        "algo": 1
+      },
+      {
+        "value": "8dfb322866f4a909b35b5e87f4643263",
+        "algo": 2
+      }
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionName": "Fabric"
+      },
+      {
+        "gameVersionPadded": "0000000001.0000000020.0000000001",
+        "gameVersion": "1.20.1",
+        "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+        "gameVersionName": "1.20.1"
+      }
+    ],
+    "gameVersions": [
+      "Fabric",
+      "1.20.1"
+    ],
+    "fileFingerprint": 1283212629,
+    "modId": 466901
+  }
+}

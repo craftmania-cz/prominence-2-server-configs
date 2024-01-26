@@ -1,0 +1,36 @@
+{
+  // ------------------------------------------------------------------------------------------------------------------------------
+  //                                         Custom Item Attributes (CIA) by ElocinDev
+  // ------------------------------------------------------------------------------------------------------------------------------
+  //                                                          Config 
+  //                             Reloaded via datapack reload (/reload) or restarting the game
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // Index:
+  //       item        :   The item's identifier. You can get this using the autocomplete of the /give command.
+  //       slot        :   Each override option represents a slot where the attributes get applied to. Hands or armors.
+  //       attribute   :   The Identifier of the attribute. You can get it using the autocomplete of the /attribute command.
+  //       value       :   The value of the desired attribute. You can use negatives too, must be a decimal number.
+  //       operation   :   The operation to calculate the attribute. Addition or Multiply.
+  //       unbreakable :   Whether or not the item should be unbreakable.
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // The example showcases a config to add +10 attack damage and +20% attack speed to an "example_item", only on the main hand.
+  // Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.
+  "items": [
+    {
+      "item": "spellbladenext:deathchill_chestplate",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [
+        {
+          "attribute": "spellpower:soul",
+          "value": 3.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    }
+  ]
+}

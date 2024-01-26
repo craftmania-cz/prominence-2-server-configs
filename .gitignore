@@ -1,0 +1,24 @@
+# Folders
+world/*
+versions/*
+stackdeobf_mappings/*
+schematics/*
+patchouli_books/*
+modernfix/*
+logs/*
+libraries/*
+defaultconfigs/*
+att-debug/*
+.fabric/*
+.mixin.out/*
+mods/*
+
+# Files
+banned-ips.json
+banned-players.json
+eula.txt
+usercache.json
+usernamecache.json
+whitelist.json
+xaero*.txt
+ops.json
