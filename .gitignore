@@ -23,3 +23,5 @@ whitelist.json
 xaero*.txt
 ops.json
 config/spark/tmp/*
+server.jar
+fabric-*.jar
