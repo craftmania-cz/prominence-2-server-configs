@@ -139,8 +139,8 @@
 			subtitle: "Spawn in &4The Nether &rwhen the player tries to mine &6Nether Gold Ore &ror when &6The Piglins&r call it for help."
 			tasks: [{
 				entity: "adventurez:piglin_beast"
-				icon: "adventurez:piglin_flag_block"
-				id: "6F13475E767FB83F"
+				icon: "minecraft:piglin_head"
+				id: "4F696CAC641AC538"
 				title: "Kill a Piglin Beast"
 				type: "kill"
 				value: 1L
@@ -190,30 +190,12 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "3963B69A10D95565"
-			rewards: [
-				{
-					id: "5532E4E06E5D365C"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4CAD5204E8BC01CF"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-				{
-					id: "66EFDB151CDAC6F0"
-					item: "artifacts:panic_necklace"
-					type: "item"
-				}
-			]
 			shape: "pentagon"
 			subtitle: "&8The Stone Golem &rcan only be summoned with a &6Golem Ritual&r  while being in &4The Nether &f(use the for more informations)"
 			tasks: [{
-				entity: "adventurez:stone_golem"
-				icon: "adventurez:stone_golem_heart"
-				id: "3CCB99D30F004CC1"
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
+				id: "27D27F2750D953BC"
 				title: "Kill the Blackstone Golem"
 				type: "kill"
 				value: 1L

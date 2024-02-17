@@ -12,6 +12,7 @@ att-debug/*
 .fabric/*
 .mixin.out/*
 mods/*
+crash-reports/*
 
 # Files
 banned-ips.json

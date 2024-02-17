@@ -11,6 +11,18 @@
 		}
 	}
 	id: "13D4D78DE7B38A80"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -0.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

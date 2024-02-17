@@ -49,7 +49,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -6.0d
-			y: -0.75d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -74,8 +74,8 @@
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: -2.5d
-			y: 0.0d
+			x: -3.6785714285714306d
+			y: 0.05357142857141639d
 		}
 		{
 			click: ""
@@ -138,8 +138,8 @@
 			image: "prominent:textures/other/prominent_logo.png"
 			rotation: 0.0d
 			width: 1.7d
-			x: 2.0d
-			y: 0.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			click: ""
@@ -151,8 +151,8 @@
 			image: "endrem:textures/backgrounds/advance_back.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -5.0d
-			y: 1.0d
+			x: -3.7142857142857224d
+			y: 0.01785714285713169d
 		}
 		{
 			click: ""
@@ -163,8 +163,8 @@
 			image: "ftbteams:textures/add.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -24.5d
-			y: -16.5d
+			x: -27.0d
+			y: -25.5d
 		}
 		{
 			click: ""
@@ -208,6 +208,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "18E337BC1F3F75FD"
 			dev: false
 			height: 20.0d
 			hover: [ ]
@@ -215,7 +216,7 @@
 			rotation: 0.0d
 			width: 24.48979591836735d
 			x: -8.0d
-			y: 8.5d
+			y: 8.0d
 		}
 	]
 	order_index: 1
@@ -330,11 +331,6 @@
 			id: "5063E49140A8BB20"
 			rewards: [
 				{
-					id: "71B5FFAD7215D2DC"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "3E335D3907199652"
 					item: "minecraft:netherite_scrap"
@@ -350,7 +346,7 @@
 			size: 1.5d
 			subtitle: "&8[Click to read lore and indications]"
 			tasks: [{
-				entity: "adventurez:stone_golem"
+				entity: "adventurez:blackstone_golem"
 				icon: {
 					Count: 1b
 					id: "ftbquests:custom_icon"
@@ -369,7 +365,7 @@
 		}
 		{
 			dependencies: ["383590146CEEB423"]
-			description: ["By using the &dEssence of Eventide&r on the &eOld Moon Altar&r, you will return the &atrue heir&r back to &ait's&r original &ebody&r. This will result in the summoning of the &cFallen Icon&r, a &6fierce empowered version&r of the &9Returning Knight&r with a &3fast and dangerous second phase&r. When summoned, &5Unbreakable&r will be used right away, affecting all nearby players with &fWeakness, &cNausea&r, and &7Slowness&r."]
+			description: ["By using the &dEssence of Eventide&r on the &eOld Moon Altar&r, you will return the &atrue heir&r back to its original &ebody&r. This will result in the summoning of the &cFallen Icon&r, a &6fierce empowered version&r of the &9Returning Knight&r with a &3fast and dangerous second phase&r. When summoned, &5Unbreakable&r will be used right away, affecting all nearby players with &fWeakness, &cNausea&r, and &7Slowness&r."]
 			id: "759AA6DD39277704"
 			rewards: [{
 				id: "09826DC6C54E3B82"
@@ -401,64 +397,6 @@
 			title: "&2&lOverworld&f&l: &9&lThe Fallen Icon"
 			x: -7.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["0E567E587E669BED"]
-			description: ["The &k&0Void Shadow&r can be found in the&5 void dimension. &dThe void dimension&r can get entered only by the floating island which spawned when &2The Eye got killed."]
-			id: "0998DC9B397E1146"
-			rewards: [
-				{
-					id: "5B90CF0F586C92DC"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "48C1CD14062B5C9B"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					id: "53E138BA68CAD184"
-					item: {
-						Count: 1b
-						id: "mcdw:bow_call_of_the_void"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "mcdw:void_shot"
-									lvl: 1s
-								}
-								{
-									id: "mcdw:fuse_shot"
-									lvl: 1s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "&8[Click to read lore and indications]"
-			tasks: [{
-				advancement: "adventurez:void_shadow_advancement"
-				criterion: ""
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "prominent:textures/boss_icons/void_shadow.png"
-					}
-				}
-				id: "12B5B4701362CE64"
-				title: "Defeat the Void Shadow"
-				type: "advancement"
-			}]
-			title: "&e&lEnd&f&l: &9&lThe Void Shadow"
-			x: -2.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["759AA6DD39277704"]
@@ -511,16 +449,11 @@
 			description: [
 				"The raw essence of the end, &ethe ender&r has been corrupted by the &dvoid's presence&r. &eThe Ender's Eye&r needs to be defeated to establish balance in the now desolated dimension."
 				""
-				"&2The Eye&r can only be summoned at an &dEye Shrine&r. The Shrine is built with a base of a &d5×5 obsidian platform&r and a &d3×3 centered crying obsidian layer&r. On all edges an &dend rod&r has to get placed. On top of the shrine the player has to sacrifice his &ddragon egg&r after he got it from the ender dragon. The Eye can only get called in &dThe end dimension."
+				"&2The Eye&r can only be summoned at an &dEye Shrine&r. The Shrine is built with a base of a &d5×5 obsidian platform&r and a &d3×3 centered crying obsidian layer&r. On all edges an &dend rod&r has to get placed. On top of the shrine the player has to sacrifice the &ddragon egg&r. The Eye can only get called in &dThe end dimension."
 			]
 			icon: "minecraft:ender_eye"
 			id: "0E567E587E669BED"
 			rewards: [
-				{
-					id: "486102966D03F9F7"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
 				{
 					id: "70136D4984015F56"
 					item: {
@@ -532,6 +465,27 @@
 								id: "mcdw:void_strike"
 								lvl: 1s
 							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D3DC793B74D8837"
+					item: {
+						Count: 1b
+						id: "mcdw:bow_call_of_the_void"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "null"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:fuse_shot"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -549,8 +503,8 @@
 				value: 1L
 			}]
 			title: "&e&lEnd&f&l: &d&lThe Eye"
-			x: -4.979761904761915d
-			y: 1.0059523809523725d
+			x: -3.668367346938794d
+			y: 0.030612244897938012d
 		}
 		{
 			dependencies: ["5063E49140A8BB20"]
@@ -626,6 +580,11 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "3437FBE6631BF571"
+					item: "minecraft:dragon_egg"
 					type: "item"
 				}
 			]
@@ -734,7 +693,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0998DC9B397E1146"]
+			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
 				"With the defeat of the &4Dimensional Threats&r and the restoration of the realms's balance, &cS'kellak&r, the eternal flame, spoke directly to the champion."
@@ -754,7 +713,7 @@
 				type: "advancement"
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "&8[Click to read lore]"
 			tasks: [{
 				id: "388209961991648D"
@@ -762,11 +721,11 @@
 				type: "checkmark"
 			}]
 			title: "&eS'kellak's Reward"
-			x: 0.5d
-			y: 0.0d
+			x: -3.6479591836734855d
+			y: -1.5408163265306314d
 		}
 		{
-			dependencies: ["0998DC9B397E1146"]
+			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
 				"&eThe Void Shadow has been defeated&7, but its essence escaped the empty void and formed a rift in the End. Something is coming."
@@ -1107,7 +1066,7 @@
 				type: "item"
 			}]
 			title: "&eImprisonment of the void"
-			x: -3.5d
+			x: -4.0d
 			y: 8.0d
 		}
 		{
@@ -1128,8 +1087,8 @@
 				type: "checkmark"
 			}]
 			title: "&eThe Vessel"
-			x: -6.5d
-			y: 9.0d
+			x: -7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3FEF5FC9AB6C6AAE"]
@@ -1159,6 +1118,11 @@
 				{
 					id: "38594AAF825AD872"
 					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "6F816197EE03C601"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
@@ -1260,7 +1224,7 @@
 			description: [
 				"&7&oRight before Null's imprisonment, it successfuly casted the spell. A big monstrous creature appeared from the rift"
 				""
-				"&3\"The Faceless One is here, another of the void heralds. It is the root of corruption"
+				"&3\"The Faceless One is here, another of the void heralds, and the root of corruption\""
 			]
 			hide: true
 			icon: "ftbquests:book"

@@ -11,8 +11,6 @@
         "spellbladenext:fire_blade",
         "spellbladenext:fire_claymore",
         "spellbladenext:fire_orb",
-        "spellblades:whirlwindoil",
-        "spellblades:spelloil",
         "spellblades:smiteoil"
       ],
       "chance": 0.5,

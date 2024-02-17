@@ -59,7 +59,9 @@
     "kibe:escape_rope",
     "kibe:wither_builder",
     "croptopia:salt_ore",
-    "spellblades:whirlwindoil",
+    "spellbladenext:whirlwindoil",
+    "spellbladenext:spelloil",
+    "minecells:cursed_sword",
     "aquamirae:terrible_sword",
     "things:empty_agglomeration",
     "soulsweapons:frostmourne",
@@ -67,8 +69,11 @@
     "mythicupgrades:sapphire_sword",
     "mythicupgrades:sapphire_axe",
     "bewitchment:death_protection_poppet",
-    "bewitchment:eldritch_chalk",
-    "archon:heaven_dial"
+    "archon:heaven_dial",
+    "spellbladenext:flickerstrikeoil",
+    "spellbladenext:eviscerateoil",
+    "spellbladenext:finalstrikeoil",
+    "aquamirae:divider"
   ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",

@@ -86,7 +86,7 @@
 							value: "c:brushitems"
 						}
 					}
-					title: "Any #c:brushitems"
+					title: "Get a Brush"
 					type: "item"
 				}
 			]
@@ -1877,22 +1877,6 @@
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
-			id: "6E5058ED1BC23216"
-			rewards: [{
-				id: "10D5B9D2C4315058"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7F86432E168F33F2"
-				item: "minecraft:zombie_head"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["786473059A3C26CD"]
 			id: "0F905C6BD4AF154C"
 			rewards: [{
 				id: "60E0C2518789D66D"
@@ -1904,8 +1888,8 @@
 				item: "supplementaries:enderman_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: -8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -1920,8 +1904,8 @@
 				item: "minecraft:creeper_head"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -1936,8 +1920,8 @@
 				item: "minecraft:piglin_head"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -1952,8 +1936,8 @@
 				item: "minecraft:skeleton_skull"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -1968,8 +1952,8 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2000,8 +1984,8 @@
 				item: "betterarcheology:villager_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2016,8 +2000,8 @@
 				item: "betterarcheology:villager_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2033,7 +2017,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 14.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2064,8 +2048,8 @@
 				item: "betterarcheology:sheep_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2080,8 +2064,8 @@
 				item: "betterarcheology:sheep_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2112,8 +2096,8 @@
 				item: "betterarcheology:chicken_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2128,8 +2112,8 @@
 				item: "betterarcheology:chicken_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2160,8 +2144,8 @@
 				item: "betterarcheology:creeper_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.0d
+			x: -5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2176,8 +2160,8 @@
 				item: "betterarcheology:creeper_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2193,7 +2177,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2208,8 +2192,8 @@
 				item: "betterarcheology:wolf_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: -5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2224,8 +2208,8 @@
 				item: "betterarcheology:wolf_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2241,7 +2225,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2256,8 +2240,8 @@
 				item: "betterarcheology:guardian_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 13.0d
+			x: -4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2272,8 +2256,8 @@
 				item: "betterarcheology:guardian_fossil_body"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 13.0d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2288,8 +2272,8 @@
 				item: "betterarcheology:bomb"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 16.0d
+			x: -1.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2305,8 +2289,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 3.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2327,8 +2311,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 15.0d
+			x: -3.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2344,7 +2328,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2359,8 +2343,8 @@
 				item: "betterarcheology:artifact_shards"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 16.0d
+			x: 1.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["786473059A3C26CD"]
@@ -2375,24 +2359,8 @@
 				item: "betterarcheology:ocelot_fossil_head"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["786473059A3C26CD"]
-			id: "686AB81A5A7771BA"
-			rewards: [{
-				id: "1038CD364E9F2B11"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "407E264CBD73533F"
-				item: "betterarcheology:ocelot_fossil_body"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 14.0d
+			x: -4.0d
+			y: 15.5d
 		}
 	]
 	title: " &9Collectibles"

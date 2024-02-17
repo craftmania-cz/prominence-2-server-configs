@@ -45,14 +45,14 @@
       }
     },
     "puffish_skills:player.ranged_damage": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 10000000
+        "value": 8000
       }
     },
     "obscure_api:regeneration": {
@@ -86,6 +86,28 @@
       "max": {
         "default": 1024,
         "value": 10000000
+      }
+    },
+    "spellbladenext:converttofire": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
+      }
+    },
+    "spellbladenext:converttoarcane": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     },
     "creeperoverhaul:reach_distance": {
@@ -240,6 +262,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 10000000
+      }
+    },
+    "spellbladenext:converttofrost": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     },
     "tiered:generic.crit_chance": {
@@ -823,6 +856,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "spellbladenext:converttoheal": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     },
     "zenith_attributes:cold_damage": {

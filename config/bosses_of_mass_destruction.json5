@@ -1,7 +1,7 @@
 {
 	"lichConfig": {
-		"eternalNighttime": false,
-		"experienceDrop": 1500,
+		"eternalNighttime": true,
+		"experienceDrop": 500,
 		"idleHealingPerTick": 0.20000000298023224,
 		"health": 750.0,
 		"missile": {
@@ -39,8 +39,8 @@
 		"armor": 20.0,
 		"attack": 36.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
-		"spawnPillarOnDeath": false,
+		"experienceDrop": 100,
+		"spawnPillarOnDeath": true,
 		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
@@ -48,8 +48,8 @@
 		"armor": 8.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
-		"spawnAncientDebrisOnDeath": false,
+		"experienceDrop": 100,
+		"spawnAncientDebrisOnDeath": true,
 		"energizedPunchExplosionSize": 4.5,
 		"normalPunchExplosionMultiplier": 1.5
 	},
@@ -58,7 +58,7 @@
 		"armor": 10.0,
 		"attack": 30.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000
+		"experienceDrop": 100
 	},
 	"generalConfig": {
 		"tableOfElevationRadius": 3

@@ -1,7 +1,7 @@
 {
   "serverBrowserNotification": false,
   "bisectPackID": "19073",
-  "modPackFilter": "Prominence II Fabric",
+  "modPackFilter": "Prominence II [RPG]",
   "officialServers": [
     {
       "name": " ",
@@ -10,6 +10,10 @@
     {
       "name": " ",
       "ipAddress": "prom2.playcdu.co"
+    },
+    {
+      "name": " ",
+      "ipAddress": "prom2.moddedmc.net"
     }
   ],
   "blacklistedServers": []

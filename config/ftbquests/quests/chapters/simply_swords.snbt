@@ -16,7 +16,7 @@
 		x: -10.0d
 		y: -13.0d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -186,24 +186,11 @@
 			dependencies: ["0F426527B63F854D"]
 			description: ["This will be the first step in &bdiscovering sockets&r and &9runic powers&r!"]
 			id: "574677AD427E33FB"
-			rewards: [
-				{
-					id: "7F3ACDEA0EBADED3"
-					item: {
-						Count: 1b
-						id: "simplyswords:slumbering_lichblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4614B78F16F62367"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "4614B78F16F62367"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Unique Indeed."
 			tasks: [{
 				id: "0D8720163BD20211"
@@ -817,5 +804,5 @@
 			y: -6.5d
 		}
 	]
-	title: " &eGear: &6Simply Swords"
+	title: " &eGear: &7Simply Swords"
 }

@@ -11,6 +11,32 @@
 		}
 	}
 	id: "0EF4DA402B0EFC8E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:block/purple_mystical_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.062159863945574045d
+			y: -3.5918367346938815d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -41,6 +67,11 @@
 				"No items will be consumed, but to change the shape you'll need to own the desired item."
 			]
 			id: "09C318161E20A39E"
+			rewards: [{
+				id: "5E60EBADBFED48BC"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "diamond"
 			subtitle: "&8[Click to read information]"
 			tasks: [{
@@ -51,6 +82,30 @@
 			title: "&dTransmogs!"
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["09C318161E20A39E"]
+			description: [
+				"&7If you dont want to display an armor piece, or a weapon, you can hide the items!"
+				""
+				"&7By using a &dVoid Fragment&7 as the transmoggable material"
+			]
+			id: "6A69BEA7C1E7E1FD"
+			rewards: [{
+				id: "0778651DAD1A18EA"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "diamond"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "0D1D91DEF701EFDA"
+				item: "transmog:void_fragment"
+				type: "item"
+			}]
+			title: "&dThe Illusion of Nothing"
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "&d Transmogrification"

@@ -71,8 +71,8 @@
 				value: 1L
 			}]
 			title: "&lBossfight: &d&lConjunctivius"
-			x: -2.4834183673469354d
-			y: 1.4770408163265323d
+			x: -2.25d
+			y: 1.5d
 		}
 		{
 			id: "35CA4D725D7D2060"

@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "archon"
 	group: "244F516C4853FD2F"
-	icon: "archon:grimoire"
+	icon: {
+		Count: 1b
+		id: "wizards:wand_fire"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "184A69F072ECA80E"
 	order_index: 0
 	quest_links: [ ]
@@ -509,8 +515,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -7.5d
+			x: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["08939A23C3D3451C"]
@@ -534,23 +540,6 @@
 			}]
 			x: -3.5d
 			y: -9.0d
-		}
-		{
-			dependencies: ["08939A23C3D3451C"]
-			id: "37CCC494C8945E76"
-			rewards: [{
-				id: "69A3B820A08DDD20"
-				type: "xp"
-				xp: 35
-			}]
-			subtitle: "The Dial heals all nearby allies such as golems, players, villagers and even pets in an area, at the cost of hunger and mana."
-			tasks: [{
-				id: "469A5E94DE0261E9"
-				item: "archon:heaven_dial"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["01258A1B33747993"]
@@ -1016,7 +1005,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6363A885C35A534B"]
@@ -1428,7 +1417,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6363A885C35A534B"]

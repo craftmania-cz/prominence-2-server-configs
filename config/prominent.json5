@@ -14,12 +14,11 @@
   // --------------------------------------------------
   "mythic_enabled": true,
   "mythic_bosses": [
-    "adventurez:stone_golem",
-    "bosses_of_mass_destruction:void_blossom",
-    "bosses_of_mass_destruction:obsidilith",
-    "bosses_of_mass_destruction:gauntlet",
+    "aquamirae:captain_cornelia",
+    "adventurez:blackstone_golem",
     "minecells:concierge",
-    "soulsweapons:night_prowler"
+    "graveyard:lich",
+    "bosses_of_mass_destruction:obsidilith"
   ],
   // Health multiplier per mythic level. 0.25 = +25%
   "mythic_hp_multiplier": 0.25,

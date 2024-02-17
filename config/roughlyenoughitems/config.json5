@@ -20,14 +20,16 @@
 			"{data:{Count:1b,id:\"minecraft:white_shulker_box\",tag:{BlockEntityTag:{Items:[{Count:1b,Slot:3b,id:\"things:gleaming_powder\"},{Count:1b,Slot:6b,id:\"things:gleaming_powder\"},{Count:1b,Slot:9b,id:\"things:gleaming_powder\"},{Count:1b,Slot:13b,id:\"minecraft:written_book\",tag:{author:\"ElocinDev\",filtered_title:\"Happy Holidays!\",pages:['{\"text\":\"Thank you for playing on Xal\\'arath this christmas eve!\\\\n\\\\nHere\\'s a small gift, it might not be much but a free shulker comes with it :)\\\\n\\\\n\\\\n- ElocinDev, Creator of Prominence\"}'],title:\"Happy Holidays!\"}},{Count:1b,Slot:19b,id:\"things:gleaming_powder\"},{Count:1b,Slot:23b,id:\"things:monocle\"},{Count:1b,Slot:25b,id:\"things:gleaming_powder\"}],id:\"minecraft:shulker_box\"},RepairCost:0,display:{Name:'{\"text\":\"XMAS Gift\"}'}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"minecraft:stripped_cherry_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"minecraft:rotten_flesh\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:spruce_fence_gate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"minecraft:spruce_fence_gate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"twigs:bloodstone_wall\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:bamboo_block\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [
 			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
 		],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": false,
 		"keyBindings": {
 			"recipeKeybind": {

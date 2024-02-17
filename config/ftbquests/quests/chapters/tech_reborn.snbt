@@ -604,18 +604,11 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "092DCB6155BE06E0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0C59954553693A2D"
-					type: "choice"
-				}
-				{
-					id: "1E2EEAF93F7B7190"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "1E2EEAF93F7B7190"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Unlock the true potential of your machines with the Overclocker Upgrade a remarkable innovation that cuts waiting times by 25% per upgrade."
 			tasks: [{
 				id: "3812CF7D67D80458"
@@ -645,18 +638,11 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "35C85EA3FCAA00F7"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0C785E750F6CC82D"
-					type: "choice"
-				}
-				{
-					id: "6F7E927090141567"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "6F7E927090141567"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "A rather humble upgrade that increases the amount of energy your machines can store. Helpful for when having an external energy buffer isn't feasible."
 			tasks: [{
 				id: "24742AD588296FAE"
@@ -669,18 +655,11 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "0AEB03456EB0F57B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0766E106F2477909"
-					type: "choice"
-				}
-				{
-					id: "6EB6DEDAB55765BF"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "6EB6DEDAB55765BF"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Sick and tired of that whining sound your machines make while working? I have just the thing for you, plop a muffler upgrade in your machine and i assure you... \\n\\n \"It's quieter than a mime trapped in a library during a power outage.\""
 			tasks: [{
 				id: "23342907C2834700"
@@ -2078,14 +2057,15 @@
 				type: "xp"
 				xp: 50
 			}]
+			shape: "diamond"
 			subtitle: "Generates 4 E/t as long as it has a dragon egg on top of it."
 			tasks: [{
 				id: "605DE8DE7039EC01"
 				item: "techreborn:dragon_egg_syphon"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C244A59E076A502"]

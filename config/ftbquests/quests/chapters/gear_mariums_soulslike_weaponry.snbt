@@ -5,7 +5,7 @@
 	group: "555B69C1AF8C1C7F"
 	icon: "soulsweapons:lost_soul"
 	id: "580F3D6E25D65E2C"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1461,18 +1461,6 @@
 			y: 1.5d
 		}
 		{
-			id: "3D98CB4985498134"
-			subtitle: "Nothing is set in stone yet, Weapon Collector, this item will find it's use in a future. But for now, consider this as your trophy."
-			tasks: [{
-				id: "2C33F864DDCE5D24"
-				item: "soulsweapons:chaos_orb"
-				type: "item"
-			}]
-			title: "What's Next?"
-			x: -9.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["4797F8F75E4E1EC2"]
 			id: "4B59515AB4B7234B"
 			rewards: [{
@@ -1557,5 +1545,5 @@
 			y: 4.0d
 		}
 	]
-	title: " &eGear: &5Soulslike Weaponry"
+	title: " &eGear: &7Soulslike Weaponry"
 }

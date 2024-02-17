@@ -351,11 +351,12 @@
 			}
 			id: "58AD6DBD81B67C1C"
 			rewards: [{
-				id: "1A85D83772D8A8F5"
-				item: "minecraft:amethyst_shard"
+				count: 4
+				id: "4EB0CB7EF7E56D4D"
+				item: "tiered:limestone_chunk"
 				type: "item"
 			}]
-			subtitle: "All tools will have a random &erarity&r. This will affect their stats. To improve the rarity, you can &ereforge the tools&r using the second tab in the anvil. You will require &ea tool-specific material&r and &damethyst&r to successfully change its rarity."
+			subtitle: "All tools will have a random &erarity&r. This will affect their stats. To improve the rarity, you can &ereforge the tools&r using the second tab in the anvil. You will require &ea tool-specific material&r and &eone of the 3 ores&7 to successfully change its rarity. &cYou can read the \"Reforging\" questline for more info!"
 			tasks: [{
 				id: "2AC258EF05B19E8F"
 				item: "minecraft:anvil"

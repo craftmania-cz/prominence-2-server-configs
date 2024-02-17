@@ -107,7 +107,7 @@
 	},
 	"luck+4": {
 		"title": "§7§lGreater Second Wind",
-		"description": "§a+2 Rolls",
+		"description": "§8Become a master of movement, gaining extra rolls.\n \n§a+2 Rolls",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -168,7 +168,7 @@
 	},
 	"hothead": {
 		"title": "§cFire Archmage",
-		"description": "§a+6 Fire Power\n§a+10% Spell Critical Chance\n§cLose Frost and Arcane Powers",
+		"description": "§8Devote yourself to the art of the dangerous fire magic, but abandon the knowledge on the rest of the elements.\n \n§a+6 Fire Power\n§a+10% Spell Critical Chance\n§cLose Frost and Arcane Powers",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -231,7 +231,7 @@
 	},
 	"donoharm": {
 		"title": "§6§lHigh Priest",
-		"description": "§a+100% Healing Power\n§c-80% Damage",
+		"description": "§8Turn yourself into the light, becoming a wielder of pure holy power that will heal your allies, but lose damage in exchange.\n \n§a+100% Healing Power\n§c-60% Damage",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -250,7 +250,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "spell_power:healing",
-					"value": 1,
+					"value": 0.5,
 					"operation": "multiply_total"
 				}
 			},
@@ -943,7 +943,7 @@
 	},
 	"eldritch": {
 		"title": "§d§lArcane Archmage",
-		"description": "§a+6 Arcane Power\n§a+25% Spell Critical Damage\n§cLose Fire and Frost Powers",
+		"description": "§8Devote yourself to the art of the enigmatic arcane magic, but abandon the knowledge on the rest of the elements.\n \n§a+6 Arcane Power\n§a+25% Spell Critical Damage\n§cLose Fire and Frost Powers",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1098,7 +1098,7 @@
 	},
 	"larry": {
 		"title": "§6§lWarrior's Devotion",
-		"description": "§a+8 Attack Damage\n§a+10% Attack Damage\n§c-50% Ranged Damage\n§cLose all spell power",
+		"description": "§8Sacrifice all your magical knowledge to become the most prominent warrior.\n \n§a+10 Attack Damage\n§c-25% Ranged Damage\n§cLose all Spell Power",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1117,7 +1117,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_damage",
-					"value": 8,
+					"value": 10,
 					"operation": "addition"
 				}
 			},
@@ -1127,14 +1127,6 @@
 					"attribute": "projectile_damage:generic",
 					"value": -0.5,
 					"operation": "multiply_base"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.attack_damage",
-					"value": 0.1,
-					"operation": "multiply_total"
 				}
 			},
 			{
@@ -1160,6 +1152,14 @@
 					"value": -1,
 					"operation": "multiply_total"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": -1,
+					"operation": "multiply_total"
+				}
 			}
 		],
 		"editor-color": "#3d72c2",
@@ -1169,7 +1169,7 @@
 	},
 	"grace": {
 		"title": "§b§lLegolas' Legacy",
-		"description": "\n§a+10% Ranged Damage\n§a+8 Projectile Lethality\n§a+200% Ranged Weapon Handling\n§c-100% Knockback Resistance",
+		"description": "§8Become the master of Bows, giving you faster draw speed and lethal projectiles, at the cost of making your armor less efficent.\n \n§a+10% Ranged Damage\n§a+5 Projectile Lethality\n§a+200% Ranged Weapon Handling\n§c-100% Knockback Resistance\n§c-80% Armor Efficency",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1204,7 +1204,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "projectile_damage:generic",
-					"value": 8,
+					"value": 5,
 					"operation": "addition"
 				}
 			},
@@ -1212,8 +1212,16 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "zenith_attributes:draw_speed",
-					"value": 3,
+					"value": 2,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -0.8,
+					"operation": "multiply_total"
 				}
 			}
 		],
@@ -1223,7 +1231,7 @@
 	},
 	"stalwart": {
 		"title": "§e§lIron Skin",
-		"description": "§a+40% Resistance\n§c-20% Attack Damage\n§c-100% Armor\n§c-100% Armor Toughness",
+		"description": "§8Turn your skin into iron, replacing your armor into 40% damage resistance.\n \n§a+40% Resistance\n§c-20% Attack Damage\n§c-100% Armor Efficency",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1286,7 +1294,7 @@
 	},
 	"iceking": {
 		"title": "§b§lFrost Archmage",
-		"description": "§a+6 Frost Power\n§a+5% Spell Critical Chance\n§a+20% Spell Critical Damage\n§cLose Arcane and Fire Powers",
+		"description": "§8Devote yourself to the art of the frozen magic, but abandon the knowledge on the rest of the elements.\n \n§a+6 Frost Power\n§a+5% Spell Critical Chance\n§a+20% Spell Critical Damage\n§cLose Arcane and Fire Powers",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -1357,7 +1365,7 @@
 	},
 	"Elementalist": {
 		"title": "§d§lOf Runes & Stars",
-		"description": "§a+3 Frost Power\n§a+3 Arcane Power\n§a+3 Fire Power\n§a+8% Spell Critical Chance\n§a+15% Spell Critical Damage\n",
+		"description": "§8Become an astral sorcerer that can control all elements.\n \n§a+3 Frost Power\n§a+3 Arcane Power\n§a+3 Fire Power\n§a+8% Spell Critical Chance\n§a+15% Spell Critical Damage\n",
 		"frame": {
 			"type": "texture",
 			"data": {
