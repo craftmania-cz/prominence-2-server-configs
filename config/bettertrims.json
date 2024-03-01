@@ -81,7 +81,7 @@
   "enable_echo_shard": true,
   "enable_ender_pearl": true,
   "enable_fire_charge": true,
-  "enable_glowstone_dust": true,
+  "enable_glowstone_dust": false,
   "enable_leather": true,
   "enable_nether_brick": true,
   "enable_prismarine_shard": true,

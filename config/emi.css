@@ -46,7 +46,7 @@
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: top;
+	effect-location: left-compressed;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -146,7 +146,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: none;
+	left-sidebar-pages: favorites;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -161,7 +161,7 @@
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 2, 2, 2, 2;
+	left-sidebar-margins: 40, 2, 2, 2;
 
 	/**
 	 * Where to position the left sidebar
@@ -448,6 +448,13 @@
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
 	show-recipe-ids: false;
+
+	/**
+	 * Whether to display additional widgets added to recipes from other mods.
+	 * These are typically developer facing and compatibility related, and not useful
+	 * for players.
+	 */
+	show-recipe-decorators: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

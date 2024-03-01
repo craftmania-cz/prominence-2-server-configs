@@ -89,7 +89,9 @@
     "spellbladenext:flickerstrikeoil",
     "spellbladenext:eviscerateoil",
     "spellbladenext:finalstrikeoil",
-    "aquamirae:divider"
+    "aquamirae:divider",
+    "the_bumblezone:potion_candle",
+    "spellbladenext:smiteoil"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

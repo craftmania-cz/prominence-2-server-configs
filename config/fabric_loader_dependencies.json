@@ -16,6 +16,11 @@
         "fabricloader": "IGNORED"
       }
     },
+    "copycats": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
     "create_questing": {
       "-depends": {
         "ftbquests": "IGNORED"

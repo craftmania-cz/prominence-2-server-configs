@@ -261,11 +261,6 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
-				{
-					id: "47BA2C715F0D3DBD"
-					item: "practical_plushies_animals:dolphin_plushie"
-					type: "item"
-				}
 			]
 			subtitle: "You have done the God of the Sea a huge favor! Now he will reward you for your efforts."
 			tasks: [{
@@ -829,11 +824,6 @@
 				{
 					id: "410F72683D05B130"
 					item: "minecraft:tropical_fish_bucket"
-					type: "item"
-				}
-				{
-					id: "3BDB5DB574552A6C"
-					item: "minecraft:frogspawn"
 					type: "item"
 				}
 			]
